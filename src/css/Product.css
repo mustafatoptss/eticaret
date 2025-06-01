@@ -1,0 +1,55 @@
+/* Product.css */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  width: 250px;
+  height: auto;
+  box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+}
+
+.imgs {
+  width: 180px;
+  height: 240px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.card h3 {
+  color: #0a66c2;
+  font-size: 18px;
+}
+.card:hover{
+    box-shadow: 1px 4px 3px grey;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+.btns{
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(241, 237, 237);
+}
+.btns:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+}

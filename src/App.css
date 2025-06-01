@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.drawer{
+    width: 500px !important;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
